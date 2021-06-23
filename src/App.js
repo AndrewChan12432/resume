@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+import profile from "./profile.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+          <img className="Profile-picture" src={profile} alt="profile" />
           <p>My name is AndrewChan</p>
       </header>
     </div>
